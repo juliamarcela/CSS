@@ -1,0 +1,20 @@
+.Grid{
+    display: grid;
+    max-width: 400px;
+    text-align: center;
+}
+
+.colunas1{
+    grid-template-columns: 200px 200px 200px;
+}
+
+.colunas2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.item{
+    background-color: rgb(150, 60, 235);
+    font-size: 1.5em;
+    margin: 5px;
+    text-align: center;
+}

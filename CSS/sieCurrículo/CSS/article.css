@@ -1,0 +1,65 @@
+article{
+    flex: 70%;
+}
+
+
+.experiencia > .tituloexperiencia{
+    display: flex;
+}
+
+.experiencia{
+    background-color: #fff;
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.experiencia > .tituloexperiencia > h2{
+    padding-left: 5px;
+    margin-bottom: px;
+}
+
+.content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.current{
+    color: #fff;
+    background-color: #F0BE00;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 55px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.content > .data{
+    color: #F0BE00;
+    padding-left: 5px;
+}
+
+.icone{
+    color: #F0BE00;
+}
+
+
+.educacao > .tituloeducacao{
+    display: flex;
+}
+
+.educacao{
+    background-color: #fff;
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.educacao > .tituloeducacao > h2{
+    padding-left: 5px;
+    margin-bottom: px;
+}

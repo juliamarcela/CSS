@@ -1,0 +1,116 @@
+aside{
+    background-color: #fff;
+    flex: 30%;
+}
+
+aside > .fotopessoal{
+    align-items: end;
+    background-image: url(../imagemPessoal/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 300px;
+}
+
+aside > .infopessoais{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    margin: 1em 0 1em 1em;
+}
+
+.skills > .tituloskills{
+    display: flex;
+}
+
+.skills{
+    margin: 1em 1em 1em 1em;
+}
+
+.skills > .tituloskills > h2{
+    padding-left: 5px;
+}
+
+.borda100{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+
+.habilidades{
+    margin-top: 20px;
+}
+
+.languages{
+    margin: 1em 1em 1em 1em; 
+}
+
+.languages > .tituloslinguagens{
+    display: flex;
+}
+
+.idiomas{
+    margin-top: 20px;
+}
+.preenchimento1{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.preenchimento2{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.preenchimento3{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    text-align: center;
+    width: 75%;
+}
+
+.preenchimento4{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.preenchimento5{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    height: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.preenchimento6{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    height: 16px;
+    text-align: center;
+    width: 80%;
+}
+
+.preenchimento7{
+    background-color: #F0BE00;
+    border: 1px solid #F0BE00;
+    border-radius: 10px;
+    height: 16px;
+    text-align: center;
+    width: 10%;
+}

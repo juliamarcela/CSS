@@ -1,0 +1,26 @@
+div{
+    background-color: mediumslateblue;
+    border: 3px solid rgb(121, 6, 230);
+    padding: 50px;
+    width: 100px;
+}
+
+section{
+    border: 1px solid rgb(124, 15, 248);
+}
+
+.img{
+    float: right;
+}
+
+.título{
+    clear: right;
+}
+
+.img2{
+    float: right;
+}
+
+.clearfix{
+    overflow: auto; /*sobrepor*/
+}

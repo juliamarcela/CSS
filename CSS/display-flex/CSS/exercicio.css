@@ -1,0 +1,28 @@
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.flex-container > div{
+    background-color: #fff;
+    border: solid 2px black;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.fex-container2 > div{
+    background-color: #fff;
+    border: solid 2px black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.fex-container2{
+    display: block;
+}

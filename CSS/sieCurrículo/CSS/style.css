@@ -1,0 +1,36 @@
+:root{
+    --destaque--: #7BE495; 
+    --fonte--: 'Roboto', sans-serif;
+    --fundo--: #CFF4D2; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--fundo--);
+    font-family: var(--fonte--);
+}
+
+main{
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    padding: 30px;
+}
+
+footer{
+    
+}
+
+@media (max-width: 400px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+
+

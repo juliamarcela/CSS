@@ -1,0 +1,20 @@
+
+.flex-container > div{
+    background-color: #fff;
+    font-family: sans-serif;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.flex-container{
+    align-items: center;
+    background-color: #7256ee;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: auto;
+    max-width: 420px;
+    width: 900px;
+}
